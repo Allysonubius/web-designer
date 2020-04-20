@@ -1,0 +1,60 @@
+/*EDIT-PAGE*/
+
+body {
+    font-family: sans-serif, serif, arial;
+    font-size: 12px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+
+/*ID-EDIT*/
+
+#main {
+    background-color: #00ff00;
+    padding: 10px;
+}
+
+#tribute-info {
+    color: brown;
+    font-size: 24px;
+    list-style-position: center;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#tribute-link:hover {
+    color: red;
+}
+
+#img-div {
+    background-color: white;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+#image {
+    image-rendering: auto;
+    display: block;
+    text-align: center;
+}
+
+#image-caption {
+    display: auto;
+}
+
+
+/*CLASS-EDIT*/

@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="pt-br">
+<!--LINGUAGEM-->
+
+<head>
+
+    <!--UNICODE-->
+    <meta charset="utf-8" />
+    <!--DESCRIÇÂO-->
+    <meta name="description" content="HTML" />
+    <!--FAVICON-->
+    <link rel="icon" href="img/logo-www.png" />
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--TITULO-DA-PAGINA-->
+    <title>Web Design
+    </title>
+</head>
+
+<body>
+    <main id="main">
+        <!--Menu-->
+        <nav id="menu-nav">
+            <ol class="menu">
+                <li class="left-position">
+                    <a href="index.html">
+                        <img class="logo " src="img/logo-www.png" alt="logo" </a>
+                </li>
+                <li class="right-position">
+                    <a class="right-menu" href="index.html">Form </a>
+                </li>
+                <li class="right-position">
+                    <a class="right-position" href="form.html">Home </a>
+                </li>
+            </ol>
+        </nav>
+
+        <header class="line">
+            <h2 id="title">Web Design</h2>
+        </header>
+
+        <form id="survey-form">
+            <h3 id="description"> Formulário</h3>
+            <div id="dropdown">
+                <!--name-->
+                <label id="name">Name:</label>
+                <input id="name-label" type="text" placeholder=" Enter your name " />
+                <br /><br />
+                <!--email-->
+                <label id="email">E-mail:</label>
+                <input id="email-label" type="email" placeholder="Enter your Email" />
+                <br/><br />
+                <!--age-->
+                <label id="number">Age:</label>
+                <input id="number-label" type="number" placeholder="Age " />
+                <br/><br />
+                <!--RADIO-buttoms-->
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label><br/>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label><br/>
+                <input type="radio" id="Other" name="gender" value="Other" />
+                <label for="Other">Other</label>
+                <br/><br />
+                <!--TEXTAREA-->
+                <textarea name="mesasage" rows="10" cols="30" placeholder="The quest coment...">
+                   
+                </textarea><br /><br />
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+
+
+        <!--RRODAPE-->
+        <footer class=" footer-page ">
+            <h2>&copy; Todos os direitos reservados - Allyson O.</h2>
+        </footer>
+    </main>
+</body>
+
+</html>

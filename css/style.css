@@ -3,25 +3,49 @@
 body {
     font-family: sans-serif, serif, arial;
     font-size: 12px;
+    background-color: #61a7f4;
 }
 
 h2 {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 p {
-    text-align: center;
-    padding: 5px;
+    text-align: justify;
+}
+
+nav ol li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ol li a {
+    text-decoration: none;
     color: black;
+    font-size: 60px;
+}
+
+nav ol li a:hover {
+    color: #91ece4;
+}
+
+form h3 {
+    text-align: center;
+    font-size: 26px;
+}
+
+form div {
+    text-align: center;
 }
 
 
 /*ID-EDIT*/
 
 #main {
-    background-color: #00ff00;
-    padding: 10px;
+    height: 100% auto;
+    width: 100% auto;
+    background-color: #b6b0ae;
 }
 
 #tribute-info {
@@ -47,7 +71,6 @@ p {
 }
 
 #image {
-    image-rendering: auto;
     display: block;
     text-align: center;
 }
@@ -56,5 +79,53 @@ p {
     display: auto;
 }
 
+#menu-nav {
+    background-color: brown;
+    margin-bottom: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#title {
+    font-size: 22px;
+}
+
+#survey-form {
+    align-items: center;
+}
+
 
 /*CLASS-EDIT*/
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+.right-position {
+    float: right;
+    margin-right: 10px;
+}
+
+.right-menu {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer-page {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.line {
+    margin-top: 30px;
+}
